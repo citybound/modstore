@@ -33,34 +33,35 @@ General idea: mods are GitHub repos, as much data as possible is gotten from the
 
 ### A Mod
 
-#### Stored on: GitHub Repo for Mod
-
-- Repo Name = Mod Name
+In manifest file
+- Name
+- Version
+- Game Version Compatability
+- (Dependencies)
 
 In README.md
 - Description
 - Tags (standardized format?)
+- + for example
+  - Link to issue tracking if any
+
+In CHANGELOG.md
+- Changelog
 
 In a special folder
 - Screenshots
 
-In GitHub Releases
-- Downloadable mod-package (contains binaries for all platforms)
-- Changelog
-- Data in Manifest file (of each version)
-  - Version
-  - Game Version Compatability
-  - (Dependencies)
-
-In GitHub Issues
-- Known Bugs
-
-#### Stored on: modstore database
+In modstore database
 - Number of downloads
 - Ratings (see below)
 
+From cross-compilation service
+- Cross-platform downloadables
+
 ### A Rating
-#### Stored on: modstore database
+
+In modstore database
+
 - Star Rating? Or just thumbs up/down?
 - Rating date
 - Rated version of the mod (user has to know?)
