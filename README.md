@@ -5,8 +5,6 @@ A webapp to discover, rate and publish mods for Citybound
 
 **Please discuss in the [modstore room on Gitter](https://gitter.im/citybound/modstore)**
 
-General idea: mods are GitHub repos, as much data as possible is gotten from there in the background, but displayed in a nice UI.
-
 ## Pages
 
 ### Start page
