@@ -66,5 +66,3 @@ In modstore database
 - Rating text
 - Submitter name (optional)
 - Rating Screenshots?
-
--> Could ratings maybe even be stored as issues with a special tag in the repo?
